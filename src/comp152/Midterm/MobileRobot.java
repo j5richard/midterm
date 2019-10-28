@@ -27,6 +27,7 @@ public class MobileRobot extends Robot implements DemoMode {
 
     public void performDemo(){
         recharge(powerLevel);
+        interacteWithWorld();
     }
 
     public void move() {
